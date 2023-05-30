@@ -47,7 +47,7 @@ function Electricity() {
       return advanceUsed;
     }
   
-    function totalAmountSpent() {
+    function calculateTotalAmountSpent() {
       return totalAmountSpent;
     }
   
@@ -60,7 +60,7 @@ function Electricity() {
       getUnitsAvailable,
       useAppliance,
       advanceTaken,
-      totalAmountSpent,
+      calculateTotalAmountSpent,
       totalUnitsBought,
     };
   }
